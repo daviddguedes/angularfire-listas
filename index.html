@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Firebase & Angularfire</title>
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body ng-controller="MainCtrl">
+    <div class="container">
+        <div class="row">
+            <h4>Clique em uma das listas abaixo:</h4>
+            <div class="col-md-12">
+                <ul>
+                    <li ng-repeat="l in listas" ng-click="verLista(l.$id)">{{l.nomeLista}}</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row" ng-show="listaFoiSelecionada">
+            <div class="col-md-6">
+                <h4>Usuários na lista selecionada:</h4>
+                <table class="table table-bordered">
+                    <tr ng-repeat="u in usuariosNestaLista">
+                        <td>{{u.display_name}}</td>
+                        <td>
+                            <div class="checkbox">
+                                <label><input type="checkbox" ng-checked="{{ u.check }}" ng-model="u.check" ng-click="usuariosNestaLista.$save(u)"> Check</label>
+                            </div>
+                        </td>
+                        <td><span class="glyphicon glyphicon-trash" ng-click="removerUsuario(u.$id)"></span></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <h4>Clique no usuário para adicionar à lista</h4>
+                <ul>
+                    <li ng-repeat="u in usuarios" ng-click="addUsuarioNaLista(u.$id, null)">{{ u.display_name }}</li>
+                </ul>
+                <input type="text" ng-model="user.display_name">
+                <input type="button" value="Adicionar" ng-click="addUsuarioNaLista(null, user)">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="angular.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
+    <script>
+        var config = {
+            apiKey: "AIzaSyCaqyzLYkvoAmmF3Gp4N0bOEf51TnypnfQ",
+            authDomain: "testes-2733b.firebaseapp.com",
+            databaseURL: "https://testes-2733b.firebaseio.com",
+            storageBucket: "testes-2733b.appspot.com",
+            messagingSenderId: "184142590354"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

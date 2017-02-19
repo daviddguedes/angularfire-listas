@@ -1,0 +1,180 @@
+{
+	"listas": {
+		"-KcxwBGt8nHL4-93LsXh": {
+			"criador": "OctkR18A77baHFizMt17chQYfcf1",
+			"nomeLista": "Mais uma lista",
+			"pessoas": {
+				"-KdLe4i0k97Vn5cz64Tk": {
+					"cadastrado": true,
+					"check": false,
+					"display_name": "Admuu",
+					"usuario": "d6eKRtSKqSfuS78SY1xPpi1zgBE2"
+				},
+				"-KdLe4xfLHyzuJnqggr1": {
+					"cadastrado": true,
+					"check": false,
+					"display_name": "Sandbox",
+					"usuario": "O3cFNJ82OPR3Rw9bcIGK6WJeLxQ2"
+				},
+				"-KdLe5ARW_KJtIBQslWQ": {
+					"cadastrado": true,
+					"check": false,
+					"display_name": "Didi Mocó",
+					"usuario": "CvIP0V0d5vX6F87QSK1ROAibiKV2"
+				}
+			},
+			"totalPessoas": 3,
+			"visibilidade": "privada"
+		},
+		"-KcyCMEAwrt--4H7O1bB": {
+			"criador": "OctkR18A77baHFizMt17chQYfcf1",
+			"nomeLista": "Lista 03",
+			"pessoas": {
+				"-KdLe5sDSoz7dwbqTfb0": {
+					"cadastrado": true,
+					"check": false,
+					"display_name": "Produtor",
+					"usuario": "2hC0r7CfAMPSHSByj37aCb2p2ec2"
+				},
+				"-KdLe63EjKgodRc8fdDg": {
+					"cadastrado": true,
+					"check": false,
+					"display_name": "Didi Mocó",
+					"usuario": "CvIP0V0d5vX6F87QSK1ROAibiKV2"
+				}
+			},
+			"totalPessoas": 2,
+			"visibilidade": "publica"
+		},
+		"-KcyEKK5DfxEnO1dqFZh": {
+			"criador": "OctkR18A77baHFizMt17chQYfcf1",
+			"nomeLista": "Lista 04",
+			"pessoas": {
+				"-KdLe6inz5xgAPT7_xqW": {
+					"cadastrado": true,
+					"check": false,
+					"display_name": "Admin",
+					"usuario": "OctkR18A77baHFizMt17chQYfcf1"
+				},
+				"-KdLe6xNvbtNVwp5hB2e": {
+					"cadastrado": true,
+					"check": false,
+					"display_name": "Sandbox",
+					"usuario": "O3cFNJ82OPR3Rw9bcIGK6WJeLxQ2"
+				},
+				"-KdLe7J_9Z4G0UQo0M1h": {
+					"cadastrado": true,
+					"check": false,
+					"display_name": "trte",
+					"usuario": "wctF3S0pXicRcyYle7pPuLqWt8J2"
+				},
+				"-KdLe7WGA69QE-LfJVZO": {
+					"cadastrado": true,
+					"check": false,
+					"display_name": "Admuu",
+					"usuario": "d6eKRtSKqSfuS78SY1xPpi1zgBE2"
+				},
+				"-KdLe7inj_lAiGHCceqK": {
+					"cadastrado": true,
+					"check": false,
+					"display_name": "Produtor",
+					"usuario": "2hC0r7CfAMPSHSByj37aCb2p2ec2"
+				},
+				"-KdLe8X0t0O3dYxGApsa": {
+					"cadastrado": true,
+					"check": false,
+					"display_name": "Didi Mocó",
+					"usuario": "CvIP0V0d5vX6F87QSK1ROAibiKV2"
+				}
+			},
+			"totalPessoas": 6,
+			"visibilidade": "publica"
+		},
+		"-KcyGtAAnfOx2c6Pgc4J": {
+			"criador": "OctkR18A77baHFizMt17chQYfcf1",
+			"nomeLista": "Lista com pessoa",
+			"pessoas": {
+				"-KdLcAcuqHxtyg-ZdJ5e": {
+					"cadastrado": true,
+					"check": false,
+					"display_name": "Admuu",
+					"usuario": "d6eKRtSKqSfuS78SY1xPpi1zgBE2"
+				},
+				"-KdLcB1W508oZ8ZojiuS": {
+					"cadastrado": true,
+					"check": false,
+					"display_name": "Sandbox",
+					"usuario": "O3cFNJ82OPR3Rw9bcIGK6WJeLxQ2"
+				}
+			},
+			"totalPessoas": 2,
+			"visibilidade": "publica"
+		}
+	},
+	"usuarios": {
+		"2hC0r7CfAMPSHSByj37aCb2p2ec2": {
+			"data_cadastro": 1486822918,
+			"disabled": false,
+			"display_name": "Produtor",
+			"email": "produtor@email.com",
+			"primeiro_nome": "Produtor",
+			"segundo_nome": "da Silva",
+			"tipo": "produtor"
+		},
+		"CvIP0V0d5vX6F87QSK1ROAibiKV2": {
+			"data_cadastro": 1486822812,
+			"disabled": false,
+			"display_name": "Didi Mocó",
+			"email": "didimoco@gmail.com",
+			"primeiro_nome": "Didi",
+			"segundo_nome": "Mocó",
+			"tipo": "admin"
+		},
+		"KM7LcztosqQMDCgCSB5GYMzTevz1": {
+			"celular": "8378282728",
+			"data_cadastro": 1486754959603,
+			"disabled": false,
+			"display_name": "Zacarias",
+			"email": "email@email.com",
+			"primeiro_nome": "Zacarias",
+			"segundo_nome": "José",
+			"tipo": "usuario"
+		},
+		"O3cFNJ82OPR3Rw9bcIGK6WJeLxQ2": {
+			"celular": "56345634563",
+			"data_cadastro": 1487248248,
+			"disabled": false,
+			"display_name": "Sandbox",
+			"primeiro_nome": "Sandbox",
+			"segundo_nome": "Comprador",
+			"tipo": "usuario"
+		},
+		"OctkR18A77baHFizMt17chQYfcf1": {
+			"data_cadastro": 1486822946,
+			"disabled": false,
+			"display_name": "Admin",
+			"email": "admin@email.com",
+			"primeiro_nome": "Admin",
+			"segundo_nome": "da Silva",
+			"tipo": "admin"
+		},
+		"d6eKRtSKqSfuS78SY1xPpi1zgBE2": {
+			"data_cadastro": 1486822968,
+			"disabled": false,
+			"display_name": "Admuu",
+			"email": "checkin@email.com",
+			"primeiro_nome": "Checkin",
+			"segundo_nome": "da Silva",
+			"tipo": "checkin"
+		},
+		"wctF3S0pXicRcyYle7pPuLqWt8J2": {
+			"data_cadastro": 1486755061425,
+			"disabled": false,
+			"display_name": "trte",
+			"email": "e@email.com",
+			"primeiro_nome": "trte",
+			"segundo_nome": "eerter",
+			"tipo": "usuario"
+		}
+	}
+}
